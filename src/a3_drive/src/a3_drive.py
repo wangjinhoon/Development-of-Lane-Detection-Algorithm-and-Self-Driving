@@ -21,7 +21,25 @@ import sys
 import os
 import signal
 
-pid = PID()
+
+m_ = 0
+
+class PID:
+    def __init__(self, kp, ki, kd):
+        self.Kp = kp
+        self.Ki = ki
+        self.Kd = kd
+        self.p_error = 0.0 # current error at time t
+        self.i_error = 0.0 # cumulative
+        self.d_error = 0.0 # rate of change
+
+    # CTE = 화면의 장앙점과 좌우차선의 중점과의 차이
+    def pid_control(self, cte):
+        self.d_error = cte - self.p_error # current error - previous error
+        self.p_error = cte # current error
+        self.i_error += cte # cumulative error
+
+        return self.Kp*self.p_error + self.Ki*self.i_error + self.Kd*self.d_error
 
 def signal_handler(sig, frame):
     os.system('killall -9 python rosout')
@@ -34,15 +52,15 @@ bridge = CvBridge()
 pub = None
 Width = 640
 Height = 480
-Offset = 340
+Offset = 370
 Gap = 40
 
 def img_callback(data):
-    global image
+    global image    
     image = bridge.imgmsg_to_cv2(data, "bgr8")
 
 # publish xycar_motor msg
-def drive(Angle, Speed):
+def drive(Angle, Speed): 
     global pub
 
     msg = xycar_motor()
@@ -72,7 +90,7 @@ def draw_rectangle(img, lpos, rpos, offset=0):
                        (0, 255, 0), 2)
     cv2.rectangle(img, (center-5, 15 + offset),
                        (center+5, 25 + offset),
-                       (0, 255, 0), 2)
+                       (0, 255, 0), 2)    
     cv2.rectangle(img, (315, 15 + offset),
                        (325, 25 + offset),
                        (0, 0, 255), 2)
@@ -96,7 +114,7 @@ def divide_left_right(lines):
             slope = 0
         else:
             slope = float(y2-y1) / float(x2-x1)
-
+        
         if abs(slope) > low_slope_threshold and abs(slope) < high_slope_threshold:
             slopes.append(slope)
             new_lines.append(line[0])
@@ -121,6 +139,7 @@ def divide_left_right(lines):
 # get average m, b of lines
 def get_line_params(lines):
     # sum of x, y, m
+    global m_
     x_sum = 0.0
     y_sum = 0.0
     m_sum = 0.0
@@ -140,7 +159,7 @@ def get_line_params(lines):
     y_avg = y_sum / (size * 2)
     m = m_sum / size
     b = y_avg - m * x_avg
-
+    m_ = m
     return m, b
 
 # get lpos, rpos
@@ -149,10 +168,11 @@ def get_line_pos(img, lines, left=False, right=False):
     global Offset, Gap
 
     m, b = get_line_params(lines)
-
     if m == 0 and b == 0:
         if left:
             pos = 0
+            
+
         if right:
             pos = Width
     else:
@@ -186,7 +206,7 @@ def process_image(frame):
 
     # HoughLinesP
     roi = edge_img[Offset : Offset+Gap, 0 : Width]
-    all_lines = cv2.HoughLinesP(roi,1,math.pi/180,30,30,10)
+    all_lines = cv2.HoughLinesP(roi,1,math.pi/180,20,30,5)
 
     # divide left, right lines
     if all_lines is None:
@@ -201,7 +221,7 @@ def process_image(frame):
     frame = draw_lines(frame, left_lines)
     frame = draw_lines(frame, right_lines)
     frame = cv2.line(frame, (230, 235), (410, 235), (255,255,255), 2)
-
+                                 
     # draw rectangle
     frame = draw_rectangle(frame, lpos, rpos, offset=Offset)
     #roi2 = cv2.cvtColor(roi, cv2.COLOR_GRAY2BGR)
@@ -209,7 +229,7 @@ def process_image(frame):
 
     # show image
     cv2.imshow('calibration', frame)
-
+    cv2.imshow("edge_img",edge_img)
     return lpos, rpos
 
 def start():
@@ -217,25 +237,45 @@ def start():
     global image
     global cap
     global Width, Height
+    global m_
 
     rospy.init_node('auto_drive')
     pub = rospy.Publisher('xycar_motor', xycar_motor, queue_size=1)
 
     image_sub = rospy.Subscriber("/usb_cam/image_raw", Image, img_callback)
-    print "---------- Xycar A2 v1.0 ----------"
+    print "---------- Xycar A2 v1.0 ---------"
     rospy.sleep(2)
+    pid = PID(0.5, 0.0005, 0.05)
+
+
 
     while True:
         while not image.size == (640*480*3):
             continue
-
+        speed = 30
         lpos, rpos = process_image(image)
 
         center = (lpos + rpos) / 2
+        #angle = -(Width/2 - center)
         error = (center - Width/2)
 
-        angle = (pid.pid_control(error))
-        drive(angle, 30)
+        #angle = error
+        # if abs(m_) < 0.4:
+        #     speed = 2.5
+        #     pid.Kp = 0.35
+        #     angle = pid.pid_control(error)
+        #     angle *= 1.4
+        # else: 
+        #     pid.Kp = 0.5
+        angle = pid.pid_control(error)
+
+        
+        print("speed, m_ : ",speed,m_)    
+        
+
+        drive(angle*float(0.80),5)
+        print(m_)
+        
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
@@ -245,20 +285,3 @@ def start():
 if __name__ == '__main__':
 
     start()
-
-
-class PID():
-    def __init__(self, kp,ki, kd):
-        self.Kp=0.5
-        self.Ki=0.0005
-        self.Kd=0.05
-        self.p_error=0.0
-        self.i_error=0.0
-        self.d_error=0.0
-
-    def pid_control(self,cte):
-        self.d_error=cte-self.p_error
-        self.p_error=cte
-        self.i_error+=cte
-
-        return self.Kp*self.p_error + self.Ki*self.i_error + self.Kd*self.d_error

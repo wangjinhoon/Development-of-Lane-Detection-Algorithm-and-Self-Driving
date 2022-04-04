@@ -13,6 +13,6 @@
     <param name="io_method" value="mmap" />
   </node>
 
-  <node name="auto_drive" output="screen" pkg="auto_drive" type="hough_drive.py" />
+  <node name="auto_drive" output="screen" pkg="a3_drive" type="a3_drive.py" />
 
 </launch>
