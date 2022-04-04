@@ -1,0 +1,8 @@
+prefix=/home/wangjh/xycar_ws/install
+
+Name: my_pkg1
+Description: Description of my_pkg1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

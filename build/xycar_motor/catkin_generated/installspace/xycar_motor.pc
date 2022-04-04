@@ -1,0 +1,8 @@
+prefix=/home/wangjh/xycar_ws/install
+
+Name: xycar_motor
+Description: Description of xycar_motor
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/wangjh/xycar_ws/devel
+
+Name: msg_send
+Description: Description of msg_send
+Version: 0.0.0
+Cflags: -I/home/wangjh/xycar_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

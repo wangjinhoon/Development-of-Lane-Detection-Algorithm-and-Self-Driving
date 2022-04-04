@@ -1,0 +1,8 @@
+prefix=/home/wangjh/xycar_ws/devel
+
+Name: rviz_xycar
+Description: Description of rviz_xycar
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

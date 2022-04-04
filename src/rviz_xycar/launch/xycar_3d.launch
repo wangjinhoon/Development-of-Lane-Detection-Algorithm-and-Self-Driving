@@ -1,0 +1,14 @@
+<launch>
+    <param name="robot_description" textfile="$(find rviz_xycar)/urdf/xycar_3d.urdf"/>
+    <param name="use_gui" value="true"/>
+    
+    <!-- rviz display -->
+    <node name="rviz_visualizer" pkg="rviz" type="rviz" required="true" 
+                args="-d $(find rviz_xycar)/rviz/xycar_3d.rviz"/>
+
+    <node name="joint_state_publisher" pkg="joint_state_publisher" 
+                type="joint_state_publisher"/>
+    <node name="robot_state_publisher" pkg="robot_state_publisher" 
+                type="state_publisher"/>
+</launch>
+

@@ -1,0 +1,16 @@
+<launch>
+    <param name="robot_description" textfile="$(find rviz_lidar)/urdf/lidar_urdf.urdf"/>
+        <param name="use_gui" value="true"/>
+
+    <!-- rviz display -->
+    <node name="rviz_visualizer" pkg="rviz" type="rviz" required="true" 
+          args="-d $(find rviz_lidar)/rviz/lidar_3d.rviz"/>
+
+    <node name="robot_state_publisher" pkg="robot_state_publisher" 
+                type="state_publisher"/>
+
+    <node name="rosbag_play" pkg="rosbag" type="play" output="screen" 
+          required="true" args="$(find rviz_lidar)/src/lidar_topic.bag"/>
+
+    <node name="lidar" pkg="rviz_lidar" type="lidar_urdf.py" output="screen"/>
+</launch>

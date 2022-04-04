@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<robot name="xycar" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+ <link name="base_link"/>
+  <link name="baseplate">
+  <visual>
+      <material name="red"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.2 0.07"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="base_link_to_baseplate" type="fixed">
+    <parent link="base_link"/>
+    <child link="baseplate"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+  </joint>
+
+  <link name ="fornt"/>
+
+  <joint name="baseplate_to_front" type="fixed">
+  <parent link="baseplate"/>
+    <child link="fornt"/>
+    <origin rpy="0 0 0" xyz="0.1 0 0"/>
+  </joint>
+
+  <link name ="back"/>
+  
+  <joint name="baseplate_to_back" type="fixed">
+   <parent link="baseplate"/>
+    <child link="back"/>
+    <origin rpy="0 0 3.14" xyz="-0.1 0 0"/>
+
+  </joint>
+
+   <link name ="left"/>
+
+  <joint name="baseplate_to_left" type="fixed">
+   <parent link="baseplate"/>
+    <child link="left"/>
+    <origin rpy="0 0 1.57" xyz="0 0.1 0"/>
+ 
+  </joint>
+
+   <link name ="right"/>
+
+  <joint name="baseplate_to_right" type="fixed">
+   <parent link="baseplate"/>
+    <child link="right"/>
+    <origin rpy="0 0 -1.57" xyz="0 -0.1 0"/>
+
+  </joint>
+
+
+
+  <material name="black">
+    <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+  <material name="blue">
+    <color rgba="0.0 0.0 0.8 1.0"/>
+  </material>
+  <material name="green">
+    <color rgba="0.0 0.8 0.0 1.0"/>
+  </material>
+  <material name="red">
+    <color rgba="0.8 0.0 0.0 1.0"/>
+  </material>
+  <material name="white">
+    <color rgba="1.0 1.0 1.0 1.0"/>
+  </material>
+  <material name="orange">
+    <color rgba="1.0 0.423529411765 0.0392156862745 01.0"/>
+  </material>
+</robot>
+
+

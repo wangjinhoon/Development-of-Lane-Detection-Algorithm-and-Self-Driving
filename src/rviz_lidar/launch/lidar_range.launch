@@ -1,0 +1,7 @@
+<launch>
+    <!-- rviz display -->
+    <node name="rviz_visualizer" pkg="rviz" type="rviz" required="true" 
+          args="-d $(find rviz_lidar)/rviz/lidar_range.rviz"/>
+
+    <node name="lidar_range" pkg="rviz_lidar" type="lidar_range.py"/>
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/wangjh/xycar_ws/install
+
+Name: rviz_imu
+Description: Description of rviz_imu
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

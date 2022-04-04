@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="msg_send" type="msg_sender.py" name="sender1"/>
+	<node pkg="msg_send" type="msg_sender.py" name="sender2"/>
+	<node pkg="msg_send" type="msg_receiver.py" name="receiver" output="screen"/>
+
+</launch>

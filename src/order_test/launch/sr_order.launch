@@ -1,0 +1,8 @@
+<launch>
+	<node pkg="order_test" type="receiver.py" name="receiver" output="screen"/>
+	<node pkg="order_test" type="first.py" name="first" output="screen"/>
+	<node pkg="order_test" type="second.py" name="second" output="screen"/>
+	<node pkg="order_test" type="third.py" name="third" output="screen"/>
+	<node pkg="order_test" type="fourth.py" name="fourth" output="screen"/>
+</launch>
+

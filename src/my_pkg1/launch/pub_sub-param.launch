@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"/>
+    <node pkg="my_pkg1" type="pub_param.py" name="node_param">
+        <param name="circle_size" value="4"/>
+    </node>
+    <node pkg="my_pkg1" type="sub.py" name="sub_node" output="screen"/>
+</launch>

@@ -1,0 +1,17 @@
+<launch>
+    <param name="robot_description" textfile="$(find rviz_xycar)/urdf/xycar_3d.urdf"/>
+    <param name="use_gui" value="true"/>
+
+    <!-- rviz display -->
+    <node name="rviz_visualizer" pkg="rviz" type="rviz" required="true" 
+                args="-d $(find rviz_xycar)/rviz/rviz_odom.rviz"/>
+
+    <node name="robot_state_publisher" pkg="robot_state_publisher" 
+                type="state_publisher"/>
+
+    <node name="driver" pkg="rviz_xycar" type="odom_8_drive.py" /> 
+    <node name="converter" pkg="rviz_xycar" type="converter.py" />
+    <node name="odom" pkg="rviz_xycar" type="rviz_odom.py" />
+
+
+</launch>

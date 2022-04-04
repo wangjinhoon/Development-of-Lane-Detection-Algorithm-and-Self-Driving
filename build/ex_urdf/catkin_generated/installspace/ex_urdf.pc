@@ -1,0 +1,8 @@
+prefix=/home/wangjh/xycar_ws/install
+
+Name: ex_urdf
+Description: Description of ex_urdf
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

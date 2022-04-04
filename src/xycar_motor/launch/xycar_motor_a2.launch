@@ -1,0 +1,8 @@
+<launch>
+  <include file="$(find xycar_motor)/launch/vesc_drive_xycar_motor.launch" />
+  <!-- xycar_a2 -->
+  <node name="xycar_motor_a2" pkg="xycar_motor" type="xycar_motor_a2.py" output="screen" >
+    <param name="angle_offset" value="0" />
+  </node>
+
+</launch>

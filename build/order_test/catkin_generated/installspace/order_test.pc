@@ -1,0 +1,8 @@
+prefix=/home/wangjh/xycar_ws/install
+
+Name: order_test
+Description: Description of order_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
