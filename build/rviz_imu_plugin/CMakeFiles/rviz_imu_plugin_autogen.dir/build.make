@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangjh/xycar_ws/src
+CMAKE_SOURCE_DIR = /home/nvidia/a3-xycar/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangjh/xycar_ws/build
+CMAKE_BINARY_DIR = /home/nvidia/a3-xycar/build
 
 # Utility rule file for rviz_imu_plugin_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/wangjh/xycar_ws/build
 include rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir/progress.make
 
 rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wangjh/xycar_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target rviz_imu_plugin"
-	cd /home/wangjh/xycar_ws/build/rviz_imu_plugin && /usr/bin/cmake -E cmake_autogen /home/wangjh/xycar_ws/build/rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nvidia/a3-xycar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target rviz_imu_plugin"
+	cd /home/nvidia/a3-xycar/build/rviz_imu_plugin && /usr/bin/cmake -E cmake_autogen /home/nvidia/a3-xycar/build/rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir ""
 
 rviz_imu_plugin_autogen: rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen
 rviz_imu_plugin_autogen: rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir/build.make
@@ -68,10 +68,10 @@ rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir/build: rviz_imu_plugin_au
 .PHONY : rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir/build
 
 rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir/clean:
-	cd /home/wangjh/xycar_ws/build/rviz_imu_plugin && $(CMAKE_COMMAND) -P CMakeFiles/rviz_imu_plugin_autogen.dir/cmake_clean.cmake
+	cd /home/nvidia/a3-xycar/build/rviz_imu_plugin && $(CMAKE_COMMAND) -P CMakeFiles/rviz_imu_plugin_autogen.dir/cmake_clean.cmake
 .PHONY : rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir/clean
 
 rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir/depend:
-	cd /home/wangjh/xycar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wangjh/xycar_ws/src /home/wangjh/xycar_ws/src/rviz_imu_plugin /home/wangjh/xycar_ws/build /home/wangjh/xycar_ws/build/rviz_imu_plugin /home/wangjh/xycar_ws/build/rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/a3-xycar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/a3-xycar/src /home/nvidia/a3-xycar/src/rviz_imu_plugin /home/nvidia/a3-xycar/build /home/nvidia/a3-xycar/build/rviz_imu_plugin /home/nvidia/a3-xycar/build/rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rviz_imu_plugin/CMakeFiles/rviz_imu_plugin_autogen.dir/depend
 

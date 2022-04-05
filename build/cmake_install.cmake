@@ -1,8 +1,8 @@
-# Install script for directory: /home/wangjh/xycar_ws/src
+# Install script for directory: /home/nvidia/a3-xycar/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wangjh/xycar_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nvidia/a3-xycar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,98 +49,102 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/wangjh/xycar_ws/install/_setup_util.py")
+   "/home/nvidia/a3-xycar/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/wangjh/xycar_ws/install" TYPE PROGRAM FILES "/home/wangjh/xycar_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/nvidia/a3-xycar/install" TYPE PROGRAM FILES "/home/nvidia/a3-xycar/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/wangjh/xycar_ws/install/env.sh")
+   "/home/nvidia/a3-xycar/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/wangjh/xycar_ws/install" TYPE PROGRAM FILES "/home/wangjh/xycar_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/nvidia/a3-xycar/install" TYPE PROGRAM FILES "/home/nvidia/a3-xycar/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/wangjh/xycar_ws/install/setup.bash;/home/wangjh/xycar_ws/install/local_setup.bash")
+   "/home/nvidia/a3-xycar/install/setup.bash;/home/nvidia/a3-xycar/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/wangjh/xycar_ws/install" TYPE FILE FILES
-    "/home/wangjh/xycar_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/wangjh/xycar_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/nvidia/a3-xycar/install" TYPE FILE FILES
+    "/home/nvidia/a3-xycar/build/catkin_generated/installspace/setup.bash"
+    "/home/nvidia/a3-xycar/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/wangjh/xycar_ws/install/setup.sh;/home/wangjh/xycar_ws/install/local_setup.sh")
+   "/home/nvidia/a3-xycar/install/setup.sh;/home/nvidia/a3-xycar/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/wangjh/xycar_ws/install" TYPE FILE FILES
-    "/home/wangjh/xycar_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/wangjh/xycar_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/nvidia/a3-xycar/install" TYPE FILE FILES
+    "/home/nvidia/a3-xycar/build/catkin_generated/installspace/setup.sh"
+    "/home/nvidia/a3-xycar/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/wangjh/xycar_ws/install/setup.zsh;/home/wangjh/xycar_ws/install/local_setup.zsh")
+   "/home/nvidia/a3-xycar/install/setup.zsh;/home/nvidia/a3-xycar/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/wangjh/xycar_ws/install" TYPE FILE FILES
-    "/home/wangjh/xycar_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/wangjh/xycar_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/nvidia/a3-xycar/install" TYPE FILE FILES
+    "/home/nvidia/a3-xycar/build/catkin_generated/installspace/setup.zsh"
+    "/home/nvidia/a3-xycar/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/wangjh/xycar_ws/install/.rosinstall")
+   "/home/nvidia/a3-xycar/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/wangjh/xycar_ws/install" TYPE FILE FILES "/home/wangjh/xycar_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/nvidia/a3-xycar/install" TYPE FILE FILES "/home/nvidia/a3-xycar/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/wangjh/xycar_ws/build/gtest/cmake_install.cmake")
-  include("/home/wangjh/xycar_ws/build/msg_send/cmake_install.cmake")
-  include("/home/wangjh/xycar_ws/build/my_motor/cmake_install.cmake")
-  include("/home/wangjh/xycar_ws/build/my_pkg1/cmake_install.cmake")
-  include("/home/wangjh/xycar_ws/build/order_test/cmake_install.cmake")
-  include("/home/wangjh/xycar_ws/build/ultrasonic/cmake_install.cmake")
-  include("/home/wangjh/xycar_ws/build/rviz_imu_plugin/cmake_install.cmake")
-  include("/home/wangjh/xycar_ws/build/ex_urdf/cmake_install.cmake")
-  include("/home/wangjh/xycar_ws/build/rviz_imu/cmake_install.cmake")
-  include("/home/wangjh/xycar_ws/build/rviz_xycar/cmake_install.cmake")
-  include("/home/wangjh/xycar_ws/build/xycar_motor/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/gtest/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/a3_drive/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/lidar_drive/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/msg_send/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/my_motor/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/my_pkg1/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/order_test/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/sliding_drive/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/ultrasonic/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/rviz_imu_plugin/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/ex_urdf/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/rviz_imu/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/rviz_lidar/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/rviz_xycar/cmake_install.cmake")
+  include("/home/nvidia/a3-xycar/build/xycar_motor/cmake_install.cmake")
 
 endif()
 
@@ -152,5 +156,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wangjh/xycar_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nvidia/a3-xycar/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

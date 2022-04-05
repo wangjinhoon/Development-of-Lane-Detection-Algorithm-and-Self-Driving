@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangjh/xycar_ws/src
+CMAKE_SOURCE_DIR = /home/nvidia/a3-xycar/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangjh/xycar_ws/build
+CMAKE_BINARY_DIR = /home/nvidia/a3-xycar/build
 
 # Utility rule file for ex_urdf_xacro_generated_to_devel_space_.
 
@@ -63,10 +63,10 @@ ex_urdf/CMakeFiles/ex_urdf_xacro_generated_to_devel_space_.dir/build: ex_urdf_xa
 .PHONY : ex_urdf/CMakeFiles/ex_urdf_xacro_generated_to_devel_space_.dir/build
 
 ex_urdf/CMakeFiles/ex_urdf_xacro_generated_to_devel_space_.dir/clean:
-	cd /home/wangjh/xycar_ws/build/ex_urdf && $(CMAKE_COMMAND) -P CMakeFiles/ex_urdf_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
+	cd /home/nvidia/a3-xycar/build/ex_urdf && $(CMAKE_COMMAND) -P CMakeFiles/ex_urdf_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
 .PHONY : ex_urdf/CMakeFiles/ex_urdf_xacro_generated_to_devel_space_.dir/clean
 
 ex_urdf/CMakeFiles/ex_urdf_xacro_generated_to_devel_space_.dir/depend:
-	cd /home/wangjh/xycar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wangjh/xycar_ws/src /home/wangjh/xycar_ws/src/ex_urdf /home/wangjh/xycar_ws/build /home/wangjh/xycar_ws/build/ex_urdf /home/wangjh/xycar_ws/build/ex_urdf/CMakeFiles/ex_urdf_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/a3-xycar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/a3-xycar/src /home/nvidia/a3-xycar/src/ex_urdf /home/nvidia/a3-xycar/build /home/nvidia/a3-xycar/build/ex_urdf /home/nvidia/a3-xycar/build/ex_urdf/CMakeFiles/ex_urdf_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ex_urdf/CMakeFiles/ex_urdf_xacro_generated_to_devel_space_.dir/depend
 

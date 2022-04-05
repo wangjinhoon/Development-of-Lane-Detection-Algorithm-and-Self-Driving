@@ -1,4 +1,4 @@
-prefix=/home/wangjh/xycar_ws/install
+prefix=/home/nvidia/a3-xycar/install
 
 Name: my_motor
 Description: Description of my_motor

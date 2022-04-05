@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/xycar_motor_generate_messages_nodejs"
-  "/home/wangjh/xycar_ws/devel/share/gennodejs/ros/xycar_motor/msg/xycar_motor.js"
+  "/home/nvidia/a3-xycar/devel/share/gennodejs/ros/xycar_motor/msg/xycar_motor.js"
 )
 
 # Per-language clean rules from dependency scanning.

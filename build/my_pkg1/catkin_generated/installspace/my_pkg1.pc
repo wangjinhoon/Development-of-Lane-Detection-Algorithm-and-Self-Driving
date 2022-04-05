@@ -1,4 +1,4 @@
-prefix=/home/wangjh/xycar_ws/install
+prefix=/home/nvidia/a3-xycar/install
 
 Name: my_pkg1
 Description: Description of my_pkg1

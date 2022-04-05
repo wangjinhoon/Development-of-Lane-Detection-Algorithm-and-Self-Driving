@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/msg_send_generate_messages_eus"
-  "/home/wangjh/xycar_ws/devel/share/roseus/ros/msg_send/msg/my_msg.l"
-  "/home/wangjh/xycar_ws/devel/share/roseus/ros/msg_send/manifest.l"
+  "/home/nvidia/a3-xycar/devel/share/roseus/ros/msg_send/msg/my_msg.l"
+  "/home/nvidia/a3-xycar/devel/share/roseus/ros/msg_send/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

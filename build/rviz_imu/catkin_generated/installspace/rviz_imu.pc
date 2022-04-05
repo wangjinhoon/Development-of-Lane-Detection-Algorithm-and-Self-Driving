@@ -1,4 +1,4 @@
-prefix=/home/wangjh/xycar_ws/install
+prefix=/home/nvidia/a3-xycar/install
 
 Name: rviz_imu
 Description: Description of rviz_imu

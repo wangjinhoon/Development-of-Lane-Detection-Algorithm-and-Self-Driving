@@ -1,4 +1,4 @@
-prefix=/home/wangjh/xycar_ws/devel
+prefix=/home/nvidia/a3-xycar/devel
 
 Name: ex_urdf
 Description: Description of ex_urdf

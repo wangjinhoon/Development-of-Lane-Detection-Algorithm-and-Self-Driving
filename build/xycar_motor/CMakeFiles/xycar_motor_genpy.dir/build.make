@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangjh/xycar_ws/src
+CMAKE_SOURCE_DIR = /home/nvidia/a3-xycar/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangjh/xycar_ws/build
+CMAKE_BINARY_DIR = /home/nvidia/a3-xycar/build
 
 # Utility rule file for xycar_motor_genpy.
 
@@ -63,10 +63,10 @@ xycar_motor/CMakeFiles/xycar_motor_genpy.dir/build: xycar_motor_genpy
 .PHONY : xycar_motor/CMakeFiles/xycar_motor_genpy.dir/build
 
 xycar_motor/CMakeFiles/xycar_motor_genpy.dir/clean:
-	cd /home/wangjh/xycar_ws/build/xycar_motor && $(CMAKE_COMMAND) -P CMakeFiles/xycar_motor_genpy.dir/cmake_clean.cmake
+	cd /home/nvidia/a3-xycar/build/xycar_motor && $(CMAKE_COMMAND) -P CMakeFiles/xycar_motor_genpy.dir/cmake_clean.cmake
 .PHONY : xycar_motor/CMakeFiles/xycar_motor_genpy.dir/clean
 
 xycar_motor/CMakeFiles/xycar_motor_genpy.dir/depend:
-	cd /home/wangjh/xycar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wangjh/xycar_ws/src /home/wangjh/xycar_ws/src/xycar_motor /home/wangjh/xycar_ws/build /home/wangjh/xycar_ws/build/xycar_motor /home/wangjh/xycar_ws/build/xycar_motor/CMakeFiles/xycar_motor_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/a3-xycar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/a3-xycar/src /home/nvidia/a3-xycar/src/xycar_motor /home/nvidia/a3-xycar/build /home/nvidia/a3-xycar/build/xycar_motor /home/nvidia/a3-xycar/build/xycar_motor/CMakeFiles/xycar_motor_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : xycar_motor/CMakeFiles/xycar_motor_genpy.dir/depend
 

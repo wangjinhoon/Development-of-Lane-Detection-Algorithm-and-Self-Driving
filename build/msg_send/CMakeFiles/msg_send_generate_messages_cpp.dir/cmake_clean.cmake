@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/msg_send_generate_messages_cpp"
-  "/home/wangjh/xycar_ws/devel/include/msg_send/my_msg.h"
+  "/home/nvidia/a3-xycar/devel/include/msg_send/my_msg.h"
 )
 
 # Per-language clean rules from dependency scanning.

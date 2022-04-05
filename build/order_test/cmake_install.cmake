@@ -1,8 +1,8 @@
-# Install script for directory: /home/wangjh/xycar_ws/src/order_test
+# Install script for directory: /home/nvidia/a3-xycar/src/order_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wangjh/xycar_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nvidia/a3-xycar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wangjh/xycar_ws/build/order_test/catkin_generated/installspace/order_test.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nvidia/a3-xycar/build/order_test/catkin_generated/installspace/order_test.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/order_test/cmake" TYPE FILE FILES
-    "/home/wangjh/xycar_ws/build/order_test/catkin_generated/installspace/order_testConfig.cmake"
-    "/home/wangjh/xycar_ws/build/order_test/catkin_generated/installspace/order_testConfig-version.cmake"
+    "/home/nvidia/a3-xycar/build/order_test/catkin_generated/installspace/order_testConfig.cmake"
+    "/home/nvidia/a3-xycar/build/order_test/catkin_generated/installspace/order_testConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/order_test" TYPE FILE FILES "/home/wangjh/xycar_ws/src/order_test/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/order_test" TYPE FILE FILES "/home/nvidia/a3-xycar/src/order_test/package.xml")
 endif()
 

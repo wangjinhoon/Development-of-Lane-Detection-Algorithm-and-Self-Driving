@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangjh/xycar_ws/src
+CMAKE_SOURCE_DIR = /home/nvidia/a3-xycar/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangjh/xycar_ws/build
+CMAKE_BINARY_DIR = /home/nvidia/a3-xycar/build
 
 # Utility rule file for sensor_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ rviz_imu_plugin/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build: sensor_m
 .PHONY : rviz_imu_plugin/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 
 rviz_imu_plugin/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
-	cd /home/wangjh/xycar_ws/build/rviz_imu_plugin && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/nvidia/a3-xycar/build/rviz_imu_plugin && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : rviz_imu_plugin/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 rviz_imu_plugin/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend:
-	cd /home/wangjh/xycar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wangjh/xycar_ws/src /home/wangjh/xycar_ws/src/rviz_imu_plugin /home/wangjh/xycar_ws/build /home/wangjh/xycar_ws/build/rviz_imu_plugin /home/wangjh/xycar_ws/build/rviz_imu_plugin/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/a3-xycar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/a3-xycar/src /home/nvidia/a3-xycar/src/rviz_imu_plugin /home/nvidia/a3-xycar/build /home/nvidia/a3-xycar/build/rviz_imu_plugin /home/nvidia/a3-xycar/build/rviz_imu_plugin/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rviz_imu_plugin/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 

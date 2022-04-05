@@ -1,8 +1,8 @@
-# Install script for directory: /home/wangjh/xycar_ws/src/my_motor
+# Install script for directory: /home/nvidia/a3-xycar/src/my_motor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wangjh/xycar_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nvidia/a3-xycar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wangjh/xycar_ws/build/my_motor/catkin_generated/installspace/my_motor.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nvidia/a3-xycar/build/my_motor/catkin_generated/installspace/my_motor.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_motor/cmake" TYPE FILE FILES
-    "/home/wangjh/xycar_ws/build/my_motor/catkin_generated/installspace/my_motorConfig.cmake"
-    "/home/wangjh/xycar_ws/build/my_motor/catkin_generated/installspace/my_motorConfig-version.cmake"
+    "/home/nvidia/a3-xycar/build/my_motor/catkin_generated/installspace/my_motorConfig.cmake"
+    "/home/nvidia/a3-xycar/build/my_motor/catkin_generated/installspace/my_motorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_motor" TYPE FILE FILES "/home/wangjh/xycar_ws/src/my_motor/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_motor" TYPE FILE FILES "/home/nvidia/a3-xycar/src/my_motor/package.xml")
 endif()
 

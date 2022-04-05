@@ -1,2 +1,2 @@
-ex_urdf:msg_send:my_motor:my_pkg1:order_test:rviz_imu:rviz_imu_plugin:rviz_xycar:ultrasonic:xycar_motor
--DCATKIN_DEVEL_PREFIX=/home/wangjh/xycar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wangjh/xycar_ws/install -G Unix Makefiles
+a3_drive:ex_urdf:lidar_drive:msg_send:my_motor:my_pkg1:order_test:rviz_imu:rviz_imu_plugin:rviz_lidar:rviz_xycar:sliding_drive:ultrasonic:xycar_motor
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/a3-xycar/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/a3-xycar/install -G Unix Makefiles

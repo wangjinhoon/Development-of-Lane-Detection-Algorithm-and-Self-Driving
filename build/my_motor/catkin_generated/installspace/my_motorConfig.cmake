@@ -67,14 +67,14 @@ set(my_motor_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(my_motor_SOURCE_PREFIX /home/wangjh/xycar_ws/src/my_motor)
-  set(my_motor_DEVEL_PREFIX /home/wangjh/xycar_ws/devel)
+  set(my_motor_SOURCE_PREFIX /home/nvidia/a3-xycar/src/my_motor)
+  set(my_motor_DEVEL_PREFIX /home/nvidia/a3-xycar/devel)
   set(my_motor_INSTALL_PREFIX "")
   set(my_motor_PREFIX ${my_motor_DEVEL_PREFIX})
 else()
   set(my_motor_SOURCE_PREFIX "")
   set(my_motor_DEVEL_PREFIX "")
-  set(my_motor_INSTALL_PREFIX /home/wangjh/xycar_ws/install)
+  set(my_motor_INSTALL_PREFIX /home/nvidia/a3-xycar/install)
   set(my_motor_PREFIX ${my_motor_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/wangjh/xycar_ws/install/lib;/home/wangjh/xycar_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/nvidia/a3-xycar/install/lib;/home/nvidia/a3-xycar/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

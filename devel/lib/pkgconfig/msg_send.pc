@@ -1,8 +1,8 @@
-prefix=/home/wangjh/xycar_ws/devel
+prefix=/home/nvidia/a3-xycar/devel
 
 Name: msg_send
 Description: Description of msg_send
 Version: 0.0.0
-Cflags: -I/home/wangjh/xycar_ws/devel/include
+Cflags: -I/home/nvidia/a3-xycar/devel/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime

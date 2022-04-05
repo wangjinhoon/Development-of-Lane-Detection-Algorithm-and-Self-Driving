@@ -1,8 +1,8 @@
-# Install script for directory: /home/wangjh/xycar_ws/src/rviz_xycar
+# Install script for directory: /home/nvidia/a3-xycar/src/rviz_xycar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wangjh/xycar_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nvidia/a3-xycar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wangjh/xycar_ws/build/rviz_xycar/catkin_generated/installspace/rviz_xycar.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nvidia/a3-xycar/build/rviz_xycar/catkin_generated/installspace/rviz_xycar.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rviz_xycar/cmake" TYPE FILE FILES
-    "/home/wangjh/xycar_ws/build/rviz_xycar/catkin_generated/installspace/rviz_xycarConfig.cmake"
-    "/home/wangjh/xycar_ws/build/rviz_xycar/catkin_generated/installspace/rviz_xycarConfig-version.cmake"
+    "/home/nvidia/a3-xycar/build/rviz_xycar/catkin_generated/installspace/rviz_xycarConfig.cmake"
+    "/home/nvidia/a3-xycar/build/rviz_xycar/catkin_generated/installspace/rviz_xycarConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rviz_xycar" TYPE FILE FILES "/home/wangjh/xycar_ws/src/rviz_xycar/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rviz_xycar" TYPE FILE FILES "/home/nvidia/a3-xycar/src/rviz_xycar/package.xml")
 endif()
 

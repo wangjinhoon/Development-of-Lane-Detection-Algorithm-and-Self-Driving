@@ -1,8 +1,8 @@
-# Install script for directory: /home/wangjh/xycar_ws/src/rviz_imu
+# Install script for directory: /home/nvidia/a3-xycar/src/rviz_imu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wangjh/xycar_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nvidia/a3-xycar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wangjh/xycar_ws/build/rviz_imu/catkin_generated/installspace/rviz_imu.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nvidia/a3-xycar/build/rviz_imu/catkin_generated/installspace/rviz_imu.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rviz_imu/cmake" TYPE FILE FILES
-    "/home/wangjh/xycar_ws/build/rviz_imu/catkin_generated/installspace/rviz_imuConfig.cmake"
-    "/home/wangjh/xycar_ws/build/rviz_imu/catkin_generated/installspace/rviz_imuConfig-version.cmake"
+    "/home/nvidia/a3-xycar/build/rviz_imu/catkin_generated/installspace/rviz_imuConfig.cmake"
+    "/home/nvidia/a3-xycar/build/rviz_imu/catkin_generated/installspace/rviz_imuConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rviz_imu" TYPE FILE FILES "/home/wangjh/xycar_ws/src/rviz_imu/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rviz_imu" TYPE FILE FILES "/home/nvidia/a3-xycar/src/rviz_imu/package.xml")
 endif()
 

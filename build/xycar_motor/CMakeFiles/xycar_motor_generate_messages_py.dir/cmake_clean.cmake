@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/xycar_motor_generate_messages_py"
-  "/home/wangjh/xycar_ws/devel/lib/python2.7/dist-packages/xycar_motor/msg/_xycar_motor.py"
-  "/home/wangjh/xycar_ws/devel/lib/python2.7/dist-packages/xycar_motor/msg/__init__.py"
+  "/home/nvidia/a3-xycar/devel/lib/python2.7/dist-packages/xycar_motor/msg/_xycar_motor.py"
+  "/home/nvidia/a3-xycar/devel/lib/python2.7/dist-packages/xycar_motor/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

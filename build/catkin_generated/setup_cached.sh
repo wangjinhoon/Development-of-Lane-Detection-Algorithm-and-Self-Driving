@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/wangjh/xycar_ws/build'
+export PWD='/home/nvidia/a3-xycar/build'
+export ROS_PACKAGE_PATH='/home/wangjh/xycar_ws/src:/home/nvidia/a3-xycar/src:/opt/ros/melodic/share'

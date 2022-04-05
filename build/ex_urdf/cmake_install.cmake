@@ -1,8 +1,8 @@
-# Install script for directory: /home/wangjh/xycar_ws/src/ex_urdf
+# Install script for directory: /home/nvidia/a3-xycar/src/ex_urdf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wangjh/xycar_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nvidia/a3-xycar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wangjh/xycar_ws/build/ex_urdf/catkin_generated/installspace/ex_urdf.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nvidia/a3-xycar/build/ex_urdf/catkin_generated/installspace/ex_urdf.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_urdf/cmake" TYPE FILE FILES
-    "/home/wangjh/xycar_ws/build/ex_urdf/catkin_generated/installspace/ex_urdfConfig.cmake"
-    "/home/wangjh/xycar_ws/build/ex_urdf/catkin_generated/installspace/ex_urdfConfig-version.cmake"
+    "/home/nvidia/a3-xycar/build/ex_urdf/catkin_generated/installspace/ex_urdfConfig.cmake"
+    "/home/nvidia/a3-xycar/build/ex_urdf/catkin_generated/installspace/ex_urdfConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_urdf" TYPE FILE FILES "/home/wangjh/xycar_ws/src/ex_urdf/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ex_urdf" TYPE FILE FILES "/home/nvidia/a3-xycar/src/ex_urdf/package.xml")
 endif()
 

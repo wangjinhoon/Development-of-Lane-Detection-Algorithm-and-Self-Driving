@@ -1,24 +1,25 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/wangjh/xycar_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nvidia/a3-xycar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_98fc7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_98fc7.dir/build.make CMakeFiles/cmTC_98fc7.dir/build
-make[1]: 디렉터리 '/home/wangjh/xycar_ws/build/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_98fc7.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_98fc7.dir/CheckSymbolExists.c.o   -c /home/wangjh/xycar_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_98fc7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98fc7.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_98fc7.dir/CheckSymbolExists.c.o  -o cmTC_98fc7 
-CMakeFiles/cmTC_98fc7.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_8ff76/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ff76.dir/build.make CMakeFiles/cmTC_8ff76.dir/build
+make[1]: Entering directory '/home/nvidia/a3-xycar/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ff76.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8ff76.dir/CheckSymbolExists.c.o   -c /home/nvidia/a3-xycar/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8ff76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ff76.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8ff76.dir/CheckSymbolExists.c.o  -o cmTC_8ff76 
+CMakeFiles/cmTC_8ff76.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_98fc7.dir/build.make:97: recipe for target 'cmTC_98fc7' failed
-make[1]: *** [cmTC_98fc7] Error 1
-make[1]: 디렉터리 '/home/wangjh/xycar_ws/build/CMakeFiles/CMakeTmp' 나감
-Makefile:126: recipe for target 'cmTC_98fc7/fast' failed
-make: *** [cmTC_98fc7/fast] Error 2
+CMakeFiles/cmTC_8ff76.dir/build.make:97: recipe for target 'cmTC_8ff76' failed
+make[1]: *** [cmTC_8ff76] Error 1
+make[1]: Leaving directory '/home/nvidia/a3-xycar/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8ff76/fast' failed
+make: *** [cmTC_8ff76/fast] Error 2
 
-File /home/wangjh/xycar_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/nvidia/a3-xycar/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +35,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/wangjh/xycar_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/nvidia/a3-xycar/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d9f7d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d9f7d.dir/build.make CMakeFiles/cmTC_d9f7d.dir/build
-make[1]: 디렉터리 '/home/wangjh/xycar_ws/build/CMakeFiles/CMakeTmp' 들어감
-Building C object CMakeFiles/cmTC_d9f7d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d9f7d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d9f7d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9f7d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d9f7d.dir/CheckFunctionExists.c.o  -o cmTC_d9f7d -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_a06a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a06a8.dir/build.make CMakeFiles/cmTC_a06a8.dir/build
+make[1]: Entering directory '/home/nvidia/a3-xycar/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a06a8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a06a8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a06a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a06a8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a06a8.dir/CheckFunctionExists.c.o  -o cmTC_a06a8 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d9f7d.dir/build.make:97: recipe for target 'cmTC_d9f7d' failed
-make[1]: *** [cmTC_d9f7d] Error 1
-make[1]: 디렉터리 '/home/wangjh/xycar_ws/build/CMakeFiles/CMakeTmp' 나감
-Makefile:126: recipe for target 'cmTC_d9f7d/fast' failed
-make: *** [cmTC_d9f7d/fast] Error 2
+CMakeFiles/cmTC_a06a8.dir/build.make:97: recipe for target 'cmTC_a06a8' failed
+make[1]: *** [cmTC_a06a8] Error 1
+make[1]: Leaving directory '/home/nvidia/a3-xycar/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a06a8/fast' failed
+make: *** [cmTC_a06a8/fast] Error 2
 
 

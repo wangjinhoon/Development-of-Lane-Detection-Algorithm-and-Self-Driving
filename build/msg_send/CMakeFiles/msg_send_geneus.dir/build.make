@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangjh/xycar_ws/src
+CMAKE_SOURCE_DIR = /home/nvidia/a3-xycar/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangjh/xycar_ws/build
+CMAKE_BINARY_DIR = /home/nvidia/a3-xycar/build
 
 # Utility rule file for msg_send_geneus.
 
@@ -63,10 +63,10 @@ msg_send/CMakeFiles/msg_send_geneus.dir/build: msg_send_geneus
 .PHONY : msg_send/CMakeFiles/msg_send_geneus.dir/build
 
 msg_send/CMakeFiles/msg_send_geneus.dir/clean:
-	cd /home/wangjh/xycar_ws/build/msg_send && $(CMAKE_COMMAND) -P CMakeFiles/msg_send_geneus.dir/cmake_clean.cmake
+	cd /home/nvidia/a3-xycar/build/msg_send && $(CMAKE_COMMAND) -P CMakeFiles/msg_send_geneus.dir/cmake_clean.cmake
 .PHONY : msg_send/CMakeFiles/msg_send_geneus.dir/clean
 
 msg_send/CMakeFiles/msg_send_geneus.dir/depend:
-	cd /home/wangjh/xycar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wangjh/xycar_ws/src /home/wangjh/xycar_ws/src/msg_send /home/wangjh/xycar_ws/build /home/wangjh/xycar_ws/build/msg_send /home/wangjh/xycar_ws/build/msg_send/CMakeFiles/msg_send_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/a3-xycar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/a3-xycar/src /home/nvidia/a3-xycar/src/msg_send /home/nvidia/a3-xycar/build /home/nvidia/a3-xycar/build/msg_send /home/nvidia/a3-xycar/build/msg_send/CMakeFiles/msg_send_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : msg_send/CMakeFiles/msg_send_geneus.dir/depend
 

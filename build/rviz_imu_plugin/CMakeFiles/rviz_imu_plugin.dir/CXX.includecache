@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/wangjh/xycar_ws/build/rviz_imu_plugin/rviz_imu_plugin_autogen/UVLADIE3JM/moc_imu_display.cpp
+/home/nvidia/a3-xycar/build/rviz_imu_plugin/rviz_imu_plugin_autogen/UVLADIE3JM/moc_imu_display.cpp
 ../../../../src/rviz_imu_plugin/src/imu_display.h
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_display.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_display.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/wangjh/xycar_ws/build/rviz_imu_plugin/rviz_imu_plugin_autogen/mocs_compilation.cpp
+/home/nvidia/a3-xycar/build/rviz_imu_plugin/rviz_imu_plugin_autogen/mocs_compilation.cpp
 UVLADIE3JM/moc_imu_display.cpp
-/home/wangjh/xycar_ws/build/rviz_imu_plugin/rviz_imu_plugin_autogen/UVLADIE3JM/moc_imu_display.cpp
+/home/nvidia/a3-xycar/build/rviz_imu_plugin/rviz_imu_plugin_autogen/UVLADIE3JM/moc_imu_display.cpp
 
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_acc_visual.cpp
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_acc_visual.cpp
 imu_acc_visual.h
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_acc_visual.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_acc_visual.h
 
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_acc_visual.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_acc_visual.h
 sensor_msgs/Imu.h
 -
 OGRE/OgreVector3.h
@@ -36,11 +36,11 @@ rviz/ogre_helpers/arrow.h
 QColor
 -
 
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_axes_visual.cpp
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_axes_visual.cpp
 imu_axes_visual.h
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_axes_visual.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_axes_visual.h
 
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_axes_visual.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_axes_visual.h
 sensor_msgs/Imu.h
 -
 OGRE/OgreSceneNode.h
@@ -50,15 +50,15 @@ OGRE/OgreSceneManager.h
 rviz/ogre_helpers/axes.h
 -
 
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_display.cpp
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_display.cpp
 imu_display.h
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_display.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_display.h
 rviz/properties/status_property.h
 -
 pluginlib/class_list_macros.h
 -
 
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_display.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_display.h
 message_filters/subscriber.h
 -
 tf/message_filter.h
@@ -92,17 +92,17 @@ rviz/properties/ros_topic_property.h
 rviz/display_group.h
 -
 imu_axes_visual.h
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_axes_visual.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_axes_visual.h
 imu_orientation_visual.h
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_orientation_visual.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_orientation_visual.h
 imu_acc_visual.h
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_acc_visual.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_acc_visual.h
 
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_orientation_visual.cpp
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_orientation_visual.cpp
 imu_orientation_visual.h
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_orientation_visual.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_orientation_visual.h
 
-/home/wangjh/xycar_ws/src/rviz_imu_plugin/src/imu_orientation_visual.h
+/home/nvidia/a3-xycar/src/rviz_imu_plugin/src/imu_orientation_visual.h
 sensor_msgs/Imu.h
 -
 OGRE/OgreSceneNode.h
@@ -1235,9 +1235,9 @@ QObject
 -
 ros/time.h
 -
-OGRE/OgreVector3.h
+OgreVector3.h
 -
-OGRE/OgreQuaternion.h
+OgreQuaternion.h
 -
 boost/thread/mutex.hpp
 -
@@ -1289,11 +1289,11 @@ rviz/rviz_export.h
 /opt/ros/melodic/include/rviz/ogre_helpers/shape.h
 object.h
 /opt/ros/melodic/include/rviz/ogre_helpers/object.h
-OGRE/OgreMaterial.h
+OgreMaterial.h
 -
-OGRE/OgreVector3.h
+OgreVector3.h
 -
-OGRE/OgreSharedPtr.h
+OgreSharedPtr.h
 -
 
 /opt/ros/melodic/include/rviz/properties/bool_property.h
@@ -1325,7 +1325,7 @@ QColor
 -
 QString
 -
-OGRE/OgreColourValue.h
+OgreColourValue.h
 -
 
 /opt/ros/melodic/include/rviz/properties/property.h
@@ -1916,63 +1916,489 @@ vector
 time.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QMap
+/usr/include/OGRE/OgreAlignedAllocator.h
+
+/usr/include/OGRE/OgreAtomicScalar.h
+signal.h
+-
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreException.h
+/usr/include/OGRE/OgreException.h
+OgrePlatformInformation.h
+/usr/include/OGRE/OgrePlatformInformation.h
+windows.h
+-
+intrin.h
+-
+Threading/OgreThreadHeaders.h
+/usr/include/OGRE/Threading/OgreThreadHeaders.h
+Threading/OgreThreadHeaders.h
+/usr/include/OGRE/Threading/OgreThreadHeaders.h
+
+/usr/include/OGRE/OgreBlendMode.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreColourValue.h
+/usr/include/OGRE/OgreColourValue.h
+
+/usr/include/OGRE/OgreBuildSettings.h
+
+/usr/include/OGRE/OgreColourValue.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+
+/usr/include/OGRE/OgreCommon.h
+OgreString.h
+/usr/include/OGRE/OgreString.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreConfig.h
+OgreBuildSettings.h
+/usr/include/OGRE/OgreBuildSettings.h
+
+/usr/include/OGRE/OgreException.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreString.h
+/usr/include/OGRE/OgreString.h
+exception
+-
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreHeaderPrefix.h
+
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreIteratorRange.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+boost/range.hpp
+-
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreIteratorWrapper.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreIteratorWrappers.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreIteratorWrapper.h
+/usr/include/OGRE/OgreIteratorWrapper.h
+OgreIteratorRange.h
+/usr/include/OGRE/OgreIteratorRange.h
+
+/usr/include/OGRE/OgreMaterial.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreResource.h
+/usr/include/OGRE/OgreResource.h
+OgreIteratorWrappers.h
+/usr/include/OGRE/OgreIteratorWrappers.h
+OgreCommon.h
+/usr/include/OGRE/OgreCommon.h
+OgreColourValue.h
+/usr/include/OGRE/OgreColourValue.h
+OgreBlendMode.h
+/usr/include/OGRE/OgreBlendMode.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreMath.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreMemoryAllocatedObject.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreMemoryAllocatorConfig.h
+OgreMemoryAllocatedObject.h
+/usr/include/OGRE/OgreMemoryAllocatedObject.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreMemoryAllocatedObject.h
+/usr/include/OGRE/OgreMemoryAllocatedObject.h
+OgreMemorySTLAllocator.h
+/usr/include/OGRE/OgreMemorySTLAllocator.h
+OgreMemoryNedPooling.h
+/usr/include/OGRE/OgreMemoryNedPooling.h
+OgreMemoryNedAlloc.h
+/usr/include/OGRE/OgreMemoryNedAlloc.h
+OgreMemoryStdAlloc.h
+/usr/include/OGRE/OgreMemoryStdAlloc.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreMemoryNedAlloc.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreMemoryNedPooling.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreMemorySTLAllocator.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreMemoryStdAlloc.h
+memory
+-
+limits
+-
+OgreAlignedAllocator.h
+/usr/include/OGRE/OgreAlignedAllocator.h
+OgreMemoryTracker.h
+/usr/include/OGRE/OgreMemoryTracker.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreMemoryTracker.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+tr1/unordered_map
+-
+ext/hash_map
+-
+Threading/OgreThreadHeaders.h
+/usr/include/OGRE/Threading/OgreThreadHeaders.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgrePlatform.h
+OgreConfig.h
+/usr/include/OGRE/OgreConfig.h
+winapifamily.h
+-
+_mingw.h
+-
+
+/usr/include/OGRE/OgrePlatformInformation.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+
+/usr/include/OGRE/OgrePrerequisites.h
+OgrePlatform.h
+/usr/include/OGRE/OgrePlatform.h
+string
+-
+OgreStdHeaders.h
+/usr/include/OGRE/OgreStdHeaders.h
+OgreMemoryAllocatorConfig.h
+/usr/include/OGRE/OgreMemoryAllocatorConfig.h
+
+/usr/include/OGRE/OgreQuaternion.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreMath.h
+/usr/include/OGRE/OgreMath.h
+
+/usr/include/OGRE/OgreResource.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreString.h
+/usr/include/OGRE/OgreString.h
+OgreSharedPtr.h
+/usr/include/OGRE/OgreSharedPtr.h
+OgreStringInterface.h
+/usr/include/OGRE/OgreStringInterface.h
+OgreAtomicScalar.h
+/usr/include/OGRE/OgreAtomicScalar.h
+Threading/OgreThreadHeaders.h
+/usr/include/OGRE/Threading/OgreThreadHeaders.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreSharedPtr.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreAtomicScalar.h
+/usr/include/OGRE/OgreAtomicScalar.h
+
+/usr/include/OGRE/OgreStdHeaders.h
+cassert
+-
+cstdio
+-
+cstdlib
+-
+ctime
+-
+cstring
+-
+cstdarg
+-
+cmath
+-
+vector
+-
+map
+-
+string
+-
+set
+-
+list
+-
+deque
+-
+queue
+-
+bitset
+-
+tr1/unordered_map
+-
+tr1/unordered_set
+-
+ext/hash_map
+-
+ext/hash_set
+-
+unordered_map
+-
+unordered_set
+-
+tr1/unordered_map
+-
+tr1/unordered_set
+-
+unordered_map
+-
+unordered_set
+-
+boost/unordered_map.hpp
+-
+boost/unordered_set.hpp
+-
+algorithm
+-
+functional
+-
+limits
+-
+fstream
+-
+iostream
+-
+iomanip
+-
+sstream
+-
+sys/types.h
+-
+sys/stat.h
+-
+unistd.h
+-
+unistd.h
+-
+dlfcn.h
+-
+unistd.h
+-
+sys/param.h
+-
+CoreFoundation/CoreFoundation.h
+-
+
+/usr/include/OGRE/OgreString.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+tr1/unordered_map
+-
+ext/hash_map
+-
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+windows.h
+-
+
+/usr/include/OGRE/OgreStringInterface.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreString.h
+/usr/include/OGRE/OgreString.h
+OgreCommon.h
+/usr/include/OGRE/OgreCommon.h
+Threading/OgreThreadHeaders.h
+/usr/include/OGRE/Threading/OgreThreadHeaders.h
+OgreHeaderPrefix.h
+/usr/include/OGRE/OgreHeaderPrefix.h
+OgreHeaderSuffix.h
+/usr/include/OGRE/OgreHeaderSuffix.h
+
+/usr/include/OGRE/OgreVector3.h
+OgrePrerequisites.h
+/usr/include/OGRE/OgrePrerequisites.h
+OgreMath.h
+/usr/include/OGRE/OgreMath.h
+OgreQuaternion.h
+/usr/include/OGRE/OgreQuaternion.h
+
+/usr/include/OGRE/Threading/OgreThreadDefines.h
+OgreThreadDefinesNone.h
+/usr/include/OGRE/Threading/OgreThreadDefinesNone.h
+OgreThreadDefinesBoost.h
+/usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
+OgreThreadDefinesPoco.h
+/usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
+OgreThreadDefinesTBB.h
+/usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
+
+/usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
+
+/usr/include/OGRE/Threading/OgreThreadDefinesNone.h
+
+/usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
+
+/usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
+
+/usr/include/OGRE/Threading/OgreThreadHeaders.h
+OgreThreadHeadersBoost.h
+/usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
+OgreThreadHeadersPoco.h
+/usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
+OgreThreadHeadersTBB.h
+/usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
+OgreThreadDefines.h
+/usr/include/OGRE/Threading/OgreThreadDefines.h
+
+/usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
+boost/thread/tss.hpp
+-
+boost/thread/recursive_mutex.hpp
+-
+boost/thread/condition.hpp
+-
+boost/thread/thread.hpp
+-
+boost/thread/shared_mutex.hpp
+-
+boost/thread/locks.hpp
+-
+
+/usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
+Poco/ThreadLocal.h
+-
+Poco/Mutex.h
+-
+Poco/Condition.h
+-
+Poco/Thread.h
+-
+Poco/Runnable.h
+-
+Poco/RWLock.h
+-
+Poco/Environment.h
+-
+
+/usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
+tbb/recursive_mutex.h
+-
+tbb/task_group.h
+-
+tbb/task_scheduler_init.h
+-
+tbb/queuing_rw_mutex.h
+-
+tbb/enumerable_thread_specific.h
+-
+tbb/tbb_thread.h
+-
+
+/usr/include/aarch64-linux-gnu/qt5/QtCore/QMap
 qmap.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qmap.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
+/usr/include/aarch64-linux-gnu/qt5/QtCore/QObject
 qobject.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qobject.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QSet
+/usr/include/aarch64-linux-gnu/qt5/QtCore/QSet
 qset.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qset.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QString
+/usr/include/aarch64-linux-gnu/qt5/QtCore/QString
 qstring.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qstring.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList
+/usr/include/aarch64-linux-gnu/qt5/QtCore/QStringList
 qstringlist.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qstringlist.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+/usr/include/aarch64-linux-gnu/qt5/QtCore/QVariant
 qvariant.h
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qvariant.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h
 -
 intrin.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qarraydata.h
 QtCore/qrefcount.h
 -
 string.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic.h
 QtCore/qglobal.h
 -
 QtCore/qbasicatomic.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_bootstrap.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_bootstrap.h
 QtCore/qgenericatomic.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_cxx11.h
 QtCore/qgenericatomic.h
 -
 atomic
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_msvc.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qatomic_msvc.h
 QtCore/qgenericatomic.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qbasicatomic.h
 QtCore/qatomic.h
 -
 QtCore/qatomic_bootstrap.h
@@ -1982,7 +2408,7 @@ QtCore/qatomic_cxx11.h
 QtCore/qatomic_msvc.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearray.h
 QtCore/qrefcount.h
 -
 QtCore/qnamespace.h
@@ -2002,31 +2428,31 @@ iterator
 QtCore/qstring.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qbytearraylist.h
 QtCore/qlist.h
 -
 QtCore/qbytearray.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qchar.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qcompilerdetection.h
 QtCore/qglobal.h
 -
 utility
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qconfig-bootstrapped.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qconfig.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qcontainerfwd.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qcontiguouscache.h
 QtCore/qatomic.h
 -
 limits.h
@@ -2034,7 +2460,7 @@ limits.h
 new
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
 QtCore/qbytearray.h
@@ -2042,7 +2468,7 @@ QtCore/qbytearray.h
 QtCore/qobjectdefs.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qdatastream.h
 QtCore/qscopedpointer.h
 -
 QtCore/qiodevice.h
@@ -2050,7 +2476,7 @@ QtCore/qiodevice.h
 QtCore/qpair.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qdebug.h
 QtCore/qalgorithms.h
 -
 QtCore/qhash.h
@@ -2082,19 +2508,19 @@ map
 utility
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qflags.h
 QtCore/qglobal.h
 -
 initializer_list
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qgenericatomic.h
 QtCore/qglobal.h
 -
 QtCore/qtypeinfo.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qglobal.h
 type_traits
 -
 cstddef
@@ -2134,7 +2560,7 @@ QtCore/qnumeric.h
 QtCore/qversiontagging.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qglobalstatic.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -2142,7 +2568,7 @@ QtCore/qatomic.h
 QtCore/qmutex.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qhash.h
 QtCore/qchar.h
 -
 QtCore/qiterator.h
@@ -2158,7 +2584,7 @@ initializer_list
 algorithm
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qhashfunctions.h
 QtCore/qchar.h
 -
 QtCore/qpair.h
@@ -2166,7 +2592,7 @@ QtCore/qpair.h
 numeric
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qiodevice.h
 QtCore/qglobal.h
 -
 QtCore/qobject.h
@@ -2178,15 +2604,15 @@ QtCore/qscopedpointer.h
 QtCore/qstring.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qiterator.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qline.h
 QtCore/qpoint.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qlist.h
 QtCore/qalgorithms.h
 -
 QtCore/qiterator.h
@@ -2218,7 +2644,7 @@ QtCore/qbytearraylist.h
 QtCore/qstringlist.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qlocale.h
 QtCore/qvariant.h
 -
 QtCore/qstring.h
@@ -2228,11 +2654,11 @@ QtCore/qobjectdefs.h
 QtCore/qshareddata.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qlogging.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qmap.h
 QtCore/qiterator.h
 -
 QtCore/qlist.h
@@ -2252,11 +2678,11 @@ functional
 initializer_list
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qmargins.h
 QtCore/qnamespace.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qmetatype.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -2276,7 +2702,7 @@ list
 map
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qmutex.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -2288,15 +2714,15 @@ chrono
 limits
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qnamespace.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qnumeric.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qobject.h
 QtCore/qobjectdefs.h
 -
 QtCore/qstring.h
@@ -2316,31 +2742,31 @@ QtCore/qobject_impl.h
 chrono
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qobject_impl.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qobjectdefs.h
 QtCore/qnamespace.h
 -
 QtCore/qobjectdefs_impl.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h
 QtCore/qnamespace.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qpair.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qpoint.h
 QtCore/qnamespace.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qprocessordetection.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qrect.h
 QtCore/qmargins.h
 -
 QtCore/qsize.h
@@ -2348,23 +2774,23 @@ QtCore/qsize.h
 QtCore/qpoint.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qrefcount.h
 QtCore/qatomic.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qregexp.h
 QtCore/qglobal.h
 -
 QtCore/qstring.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qscopedpointer.h
 QtCore/qglobal.h
 -
 stdlib.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qset.h
 QtCore/qhash.h
 -
 initializer_list
@@ -2372,7 +2798,7 @@ initializer_list
 iterator
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qshareddata.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -2382,7 +2808,7 @@ QtCore/qhash.h
 QtCore/qhashfunctions.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qsharedpointer.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -2392,7 +2818,7 @@ QtCore/qshareddata.h
 QtCore/qsharedpointer_impl.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h
 new
 -
 QtCore/qatomic.h
@@ -2404,11 +2830,11 @@ QtCore/qhash.h
 QtCore/qhashfunctions.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qsize.h
 QtCore/qnamespace.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qstring.h
 QtCore/qchar.h
 -
 QtCore/qbytearray.h
@@ -2426,7 +2852,7 @@ stdarg.h
 QtCore/qstringbuilder.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringbuilder.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qstringbuilder.h
 QtCore/qstring.h
 -
 QtCore/qbytearray.h
@@ -2434,7 +2860,7 @@ QtCore/qbytearray.h
 string.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qstringlist.h
 QtCore/qlist.h
 -
 QtCore/qalgorithms.h
@@ -2446,15 +2872,15 @@ QtCore/qstring.h
 QtCore/qstringmatcher.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qstringmatcher.h
 QtCore/qstring.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qsysinfo.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qsystemdetection.h
 QtCore/qglobal.h
 -
 TargetConditionals.h
@@ -2464,9 +2890,9 @@ Availability.h
 AvailabilityMacros.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qtcore-config.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qtextstream.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
@@ -2480,11 +2906,11 @@ QtCore/qscopedpointer.h
 stdio.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qtypeinfo.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qvariant.h
 QtCore/qatomic.h
 -
 QtCore/qbytearray.h
@@ -2506,7 +2932,7 @@ QtCore/qobject.h
 QtCore/qbytearraylist.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 QtCore/qcontainerfwd.h
 -
 QtCore/qglobal.h
@@ -2526,7 +2952,7 @@ initializer_list
 iterator
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qvector.h
 QtCore/qalgorithms.h
 -
 QtCore/qiterator.h
@@ -2554,19 +2980,19 @@ algorithm
 QtCore/qpoint.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+/usr/include/aarch64-linux-gnu/qt5/QtCore/qversiontagging.h
 QtCore/qglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QColor
+/usr/include/aarch64-linux-gnu/qt5/QtGui/QColor
 qcolor.h
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qcolor.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon
+/usr/include/aarch64-linux-gnu/qt5/QtGui/QIcon
 qicon.h
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qicon.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qcolor.h
 QtGui/qtguiglobal.h
 -
 QtGui/qrgb.h
@@ -2578,7 +3004,7 @@ QtCore/qstringlist.h
 QtGui/qrgba64.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qicon.h
 QtGui/qtguiglobal.h
 -
 QtCore/qsize.h
@@ -2588,7 +3014,7 @@ QtCore/qlist.h
 QtGui/qpixmap.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qimage.h
 QtGui/qtguiglobal.h
 -
 QtGui/qcolor.h
@@ -2610,7 +3036,7 @@ QtCore/qstring.h
 QtCore/qstringlist.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qmatrix.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpolygon.h
@@ -2626,7 +3052,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qpaintdevice.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -2634,7 +3060,7 @@ QtGui/qwindowdefs.h
 QtCore/qrect.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qpainterpath.h
 QtGui/qtguiglobal.h
 -
 QtGui/qmatrix.h
@@ -2650,11 +3076,11 @@ QtCore/qvector.h
 QtCore/qscopedpointer.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qpixelformat.h
 QtGui/qtguiglobal.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qpixmap.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpaintdevice.h
@@ -2672,7 +3098,7 @@ QtGui/qimage.h
 QtGui/qtransform.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qpolygon.h
 QtGui/qtguiglobal.h
 -
 QtCore/qvector.h
@@ -2682,7 +3108,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qregion.h
 QtGui/qtguiglobal.h
 -
 QtCore/qatomic.h
@@ -2694,27 +3120,27 @@ QtGui/qwindowdefs.h
 QtCore/qdatastream.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qrgb.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qrgba64.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qtgui-config.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qtguiglobal.h
 QtCore/qglobal.h
 -
 QtGui/qtgui-config.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qtransform.h
 QtGui/qtguiglobal.h
 -
 QtGui/qmatrix.h
@@ -2734,7 +3160,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qwindowdefs.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobjectdefs.h
@@ -2744,7 +3170,7 @@ QtCore/qnamespace.h
 QtGui/qwindowdefs_win.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+/usr/include/aarch64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 

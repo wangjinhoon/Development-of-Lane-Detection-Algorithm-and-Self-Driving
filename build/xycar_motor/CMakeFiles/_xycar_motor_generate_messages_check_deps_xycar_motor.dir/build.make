@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangjh/xycar_ws/src
+CMAKE_SOURCE_DIR = /home/nvidia/a3-xycar/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangjh/xycar_ws/build
+CMAKE_BINARY_DIR = /home/nvidia/a3-xycar/build
 
 # Utility rule file for _xycar_motor_generate_messages_check_deps_xycar_motor.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/wangjh/xycar_ws/build
 include xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir/progress.make
 
 xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor:
-	cd /home/wangjh/xycar_ws/build/xycar_motor && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py xycar_motor /home/wangjh/xycar_ws/src/xycar_motor/msg/xycar_motor.msg std_msgs/Header
+	cd /home/nvidia/a3-xycar/build/xycar_motor && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py xycar_motor /home/nvidia/a3-xycar/src/xycar_motor/msg/xycar_motor.msg std_msgs/Header
 
 _xycar_motor_generate_messages_check_deps_xycar_motor: xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor
 _xycar_motor_generate_messages_check_deps_xycar_motor: xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir/build.make
@@ -67,10 +67,10 @@ xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir
 .PHONY : xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir/build
 
 xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir/clean:
-	cd /home/wangjh/xycar_ws/build/xycar_motor && $(CMAKE_COMMAND) -P CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir/cmake_clean.cmake
+	cd /home/nvidia/a3-xycar/build/xycar_motor && $(CMAKE_COMMAND) -P CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir/cmake_clean.cmake
 .PHONY : xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir/clean
 
 xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir/depend:
-	cd /home/wangjh/xycar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wangjh/xycar_ws/src /home/wangjh/xycar_ws/src/xycar_motor /home/wangjh/xycar_ws/build /home/wangjh/xycar_ws/build/xycar_motor /home/wangjh/xycar_ws/build/xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/a3-xycar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/a3-xycar/src /home/nvidia/a3-xycar/src/xycar_motor /home/nvidia/a3-xycar/build /home/nvidia/a3-xycar/build/xycar_motor /home/nvidia/a3-xycar/build/xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : xycar_motor/CMakeFiles/_xycar_motor_generate_messages_check_deps_xycar_motor.dir/depend
 

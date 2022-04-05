@@ -1,4 +1,4 @@
-prefix=/home/wangjh/xycar_ws/install
+prefix=/home/nvidia/a3-xycar/install
 
 Name: order_test
 Description: Description of order_test

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wangjh/xycar_ws/src
+CMAKE_SOURCE_DIR = /home/nvidia/a3-xycar/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wangjh/xycar_ws/build
+CMAKE_BINARY_DIR = /home/nvidia/a3-xycar/build
 
 # Utility rule file for _msg_send_generate_messages_check_deps_my_msg.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/wangjh/xycar_ws/build
 include msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/progress.make
 
 msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg:
-	cd /home/wangjh/xycar_ws/build/msg_send && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msg_send /home/wangjh/xycar_ws/src/msg_send/msg/my_msg.msg 
+	cd /home/nvidia/a3-xycar/build/msg_send && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msg_send /home/nvidia/a3-xycar/src/msg_send/msg/my_msg.msg 
 
 _msg_send_generate_messages_check_deps_my_msg: msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg
 _msg_send_generate_messages_check_deps_my_msg: msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/build.make
@@ -67,10 +67,10 @@ msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/build: _ms
 .PHONY : msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/build
 
 msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/clean:
-	cd /home/wangjh/xycar_ws/build/msg_send && $(CMAKE_COMMAND) -P CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/cmake_clean.cmake
+	cd /home/nvidia/a3-xycar/build/msg_send && $(CMAKE_COMMAND) -P CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/cmake_clean.cmake
 .PHONY : msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/clean
 
 msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/depend:
-	cd /home/wangjh/xycar_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wangjh/xycar_ws/src /home/wangjh/xycar_ws/src/msg_send /home/wangjh/xycar_ws/build /home/wangjh/xycar_ws/build/msg_send /home/wangjh/xycar_ws/build/msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nvidia/a3-xycar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nvidia/a3-xycar/src /home/nvidia/a3-xycar/src/msg_send /home/nvidia/a3-xycar/build /home/nvidia/a3-xycar/build/msg_send /home/nvidia/a3-xycar/build/msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : msg_send/CMakeFiles/_msg_send_generate_messages_check_deps_my_msg.dir/depend
 

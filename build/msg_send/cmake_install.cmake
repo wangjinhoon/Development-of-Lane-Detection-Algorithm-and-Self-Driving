@@ -1,8 +1,8 @@
-# Install script for directory: /home/wangjh/xycar_ws/src/msg_send
+# Install script for directory: /home/nvidia/a3-xycar/src/msg_send
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wangjh/xycar_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nvidia/a3-xycar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_send/msg" TYPE FILE FILES "/home/wangjh/xycar_ws/src/msg_send/msg/my_msg.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_send/msg" TYPE FILE FILES "/home/nvidia/a3-xycar/src/msg_send/msg/my_msg.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_send/cmake" TYPE FILE FILES "/home/wangjh/xycar_ws/build/msg_send/catkin_generated/installspace/msg_send-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_send/cmake" TYPE FILE FILES "/home/nvidia/a3-xycar/build/msg_send/catkin_generated/installspace/msg_send-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/wangjh/xycar_ws/devel/include/msg_send")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/nvidia/a3-xycar/devel/include/msg_send")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/wangjh/xycar_ws/devel/share/roseus/ros/msg_send")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/nvidia/a3-xycar/devel/share/roseus/ros/msg_send")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/wangjh/xycar_ws/devel/share/common-lisp/ros/msg_send")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/nvidia/a3-xycar/devel/share/common-lisp/ros/msg_send")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/wangjh/xycar_ws/devel/share/gennodejs/ros/msg_send")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/nvidia/a3-xycar/devel/share/gennodejs/ros/msg_send")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/wangjh/xycar_ws/devel/lib/python2.7/dist-packages/msg_send")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/nvidia/a3-xycar/devel/lib/python2.7/dist-packages/msg_send")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/wangjh/xycar_ws/devel/lib/python2.7/dist-packages/msg_send")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/nvidia/a3-xycar/devel/lib/python2.7/dist-packages/msg_send")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/wangjh/xycar_ws/build/msg_send/catkin_generated/installspace/msg_send.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nvidia/a3-xycar/build/msg_send/catkin_generated/installspace/msg_send.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_send/cmake" TYPE FILE FILES "/home/wangjh/xycar_ws/build/msg_send/catkin_generated/installspace/msg_send-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_send/cmake" TYPE FILE FILES "/home/nvidia/a3-xycar/build/msg_send/catkin_generated/installspace/msg_send-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_send/cmake" TYPE FILE FILES
-    "/home/wangjh/xycar_ws/build/msg_send/catkin_generated/installspace/msg_sendConfig.cmake"
-    "/home/wangjh/xycar_ws/build/msg_send/catkin_generated/installspace/msg_sendConfig-version.cmake"
+    "/home/nvidia/a3-xycar/build/msg_send/catkin_generated/installspace/msg_sendConfig.cmake"
+    "/home/nvidia/a3-xycar/build/msg_send/catkin_generated/installspace/msg_sendConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_send" TYPE FILE FILES "/home/wangjh/xycar_ws/src/msg_send/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/msg_send" TYPE FILE FILES "/home/nvidia/a3-xycar/src/msg_send/package.xml")
 endif()
 
