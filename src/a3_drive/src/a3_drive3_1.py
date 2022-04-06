@@ -199,7 +199,7 @@ def process_image(frame):
     global Width
     global Offset, Gap
     global l_,r_
-
+    cv2.imshow('image', frame)
     # gray
     gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
 
@@ -208,8 +208,8 @@ def process_image(frame):
     blur_gray = cv2.GaussianBlur(gray,(kernel_size, kernel_size), 0)
 
     # canny edge
-    low_threshold = 170
-    high_threshold = 190
+    low_threshold = 200
+    high_threshold = 220
     edge_img = cv2.Canny(np.uint8(blur_gray), low_threshold, high_threshold)
 
     # HoughLinesP
@@ -250,6 +250,8 @@ def start():
     global m_
     global l_,r_
     kg = 0
+    count = 0
+    speed = 15
     rospy.init_node('auto_drive')
     pub = rospy.Publisher('xycar_motor', xycar_motor, queue_size=1)
 
@@ -263,12 +265,13 @@ def start():
     while True:
         while not image.size == (640*480*3):
             continue
-        speed = 15
+        
         lpos, rpos = process_image(image)
 
 
 
         if kg == 1:
+            count +=1
             center = (lpos + rpos) / 2
             #angle = -(Width/2 - center)
             error = (center - Width/2)
@@ -277,6 +280,9 @@ def start():
             elif angle < 0:
                 angle = -50
             drive(angle,speed)
+            if count > 11:
+                kg = 0
+                count = 0
             if l_ == 1 and r_ == 1:
                 kg = 0
 
