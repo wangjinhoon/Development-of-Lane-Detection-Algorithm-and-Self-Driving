@@ -16,33 +16,46 @@ import cv2, random, math
 from cv_bridge import CvBridge
 from xycar_msgs.msg import xycar_motor
 from sensor_msgs.msg import Image
-
+#from tkinter import *
+from pid import PID
 import sys
 import os
 import signal
 
 
+fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+fps = 30
+frame_size = (640, 480)
+out = cv2.VideoWriter('/home/nvidia/xycar_ws/src/a3_drive/src/a3_track.mp4', fourcc, fps, frame_size)
+
 l_ = 1
 r_ = 1
-l1 = 1
-r1 = 1
 
-class PID:
-    def __init__(self, kp, ki, kd):
-        self.Kp = kp
-        self.Ki = ki
-        self.Kd = kd
-        self.p_error = 0.0 # current error at time t
-        self.i_error = 0.0 # cumulative
-        self.d_error = 0.0 # rate of change
+#speed = 45
 
-    # CTE = 화면의 장앙점과 좌우차선의 중점과의 차이
-    def pid_control(self, cte):
-        self.d_error = cte - self.p_error # current error - previous error
-        self.p_error = cte # current error
-        self.i_error += cte # cumulative error
+# def change_dp(pos):
+#     global pid
+#     pid.Kp = pos
+# def change_di(pos):
+#     pid.Ki = pos
+# def change_dd(pos):
+#     pid.K
+speed_tmp = 45
 
-        return self.Kp*self.p_error + self.Ki*self.i_error + self.Kd*self.d_error
+
+# def onchange( pos):
+#     global speed
+#     global speed_tmp
+#     speed = pos
+#     speed_tmp = speed
+
+
+# cv2.namedWindow("TrackBar Test")
+# cv2.createTrackbar("speed","TrackBar Test", 0, 45, onchange)
+
+
+pid = PID(0.45, 0.0007, 0.05)
+
 
 def signal_handler(sig, frame):
     os.system('killall -9 python rosout')
@@ -55,7 +68,7 @@ bridge = CvBridge()
 pub = None
 Width = 640
 Height = 480
-Offset = 370
+Offset = 365
 Gap = 40
 
 def img_callback(data):
@@ -131,7 +144,8 @@ def divide_left_right(lines): #왼, 오 선분 나누는 함수
         slope = slopes[j]
 
         x1, y1, x2, y2 = Line
-
+        
+        
         if (slope < 0) and (x2 < Width/2 - 90):
             left_lines.append([Line.tolist()])
         elif (slope > 0) and (x1 > Width/2 + 90):
@@ -167,7 +181,7 @@ def get_line_params(lines):
 def get_line_pos(img, lines, left=False, right=False):
     global Width, Height
     global Offset, Gap
-    global l_,r_,l1,r1
+    global l_,r_
 
 
     m, b = get_line_params(lines)
@@ -199,7 +213,7 @@ def process_image(frame):
     global Width
     global Offset, Gap
     global l_,r_
-    cv2.imshow('image', frame)
+    global out
     # gray
     gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
 
@@ -238,40 +252,53 @@ def process_image(frame):
     #roi2 = draw_rectangle(roi2, lpos, rpos)
 
     # show image
+    
+    out.write(frame)
     cv2.imshow('calibration', frame)
-    #cv2.imshow("edge_img",edge_img)
+    cv2.imshow("edge_img",edge_img)
     return lpos, rpos
 
+
+
 def start():
+    angle = 0
     global pub
     global image
     global cap
     global Width, Height
     global m_
     global l_,r_
+    global pid
     kg = 0
     count = 0
-    speed = 15
+    _count = 13
+    global speed, speed_tmp
+    speed = 20
+    speed1 = 20
+    speed2 = 7
     rospy.init_node('auto_drive')
     pub = rospy.Publisher('xycar_motor', xycar_motor, queue_size=1)
 
     image_sub = rospy.Subscriber("/usb_cam/image_raw", Image, img_callback)
     print "---------- Xycar A2 v1.0 ---------"
     rospy.sleep(1)
-    pid = PID(0.5, 0.0005, 0.05)
-
-
-
+    
     while True:
+        # trackbar1 = cv2.getTrackbarPos('speed', 'TrackBar Test')
         while not image.size == (640*480*3):
             continue
         
         lpos, rpos = process_image(image)
+       
 
-
+        #cv2.rectangle(image, (0, Offset), (640, Offset+Gap), (0, 255, 255))
+        #cv2.line(image, (320-90, Offset), (320-90, Offset+Gap), (0, 255, 255))
+        #cv2.line(image, (320+90, Offset), (320+90, Offset+Gap), (0, 255, 255))
 
         if kg == 1:
+            Offset = 440
             count +=1
+            speed = speed2
             center = (lpos + rpos) / 2
             #angle = -(Width/2 - center)
             error = (center - Width/2)
@@ -279,34 +306,46 @@ def start():
                 angle = 50
             elif angle < 0:
                 angle = -50
+                
             drive(angle,speed)
-            if count > 11:
+            if count > _count:
                 kg = 0
                 count = 0
+                speed = speed1
             if l_ == 1 and r_ == 1:
                 kg = 0
+                speed = speed1
 
         else:
             if l_ == 0 and r_ == 0:
                 center = (lpos + rpos) / 2
                 #angle = -(Width/2 - center)
                 error = (center - Width/2)
-
                 drive(angle,speed)
                 kg = 1
 
             else:
-
+                print("else")
+                Offset = 365
+                speed = speed1
                 center = (lpos + rpos) / 2
                 #angle = -(Width/2 - center)
                 error = (center - Width/2)
 
 
                 angle = pid.pid_control(error)
+                # if abs(angle) >30:
+                #     speed = 10
                 drive(angle*float(0.80),speed)
 
-
+        print("speed_tmp" , speed_tmp)
+        print("speed", speed)
         print(angle)
+
+        if rospy.is_shutdown():
+            out.release()
+            cv2.destroyAllWindow()
+
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
